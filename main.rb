@@ -132,12 +132,3 @@ class Node  # contains the node information
     @value = value
   end
 end
-
-list = LinkedList.new
-
-list.prepend('crank that')
-list.append('soulja boy')
-puts list.head.value
-puts list.tail.value
-puts list.size
-puts list.to_s
